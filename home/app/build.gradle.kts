@@ -48,5 +48,5 @@ dependencies {
     implementation("com.google.zxing:core:3.5.3")
     testImplementation("junit:junit:4.13.2")
     // Android's org.json is a stub on the JVM; the real one parses the weather in tests.
-    testImplementation("org.json:json:20240303")
+    testImplementation("org.json:json:20260814")
 }
