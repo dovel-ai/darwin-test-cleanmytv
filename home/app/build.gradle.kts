@@ -45,7 +45,7 @@ dependencies {
     // Drawn icons for the quick-settings bar; R8 keeps only the few used.
     implementation("androidx.compose.material:material-icons-extended")
     // The QR code that sends a phone to Home's upload page; only the encoder is used.
-    implementation("com.google.zxing:core:3.5.3")
+    implementation("com.google.zxing:core:3.5.4")
     testImplementation("junit:junit:4.13.2")
     // Android's org.json is a stub on the JVM; the real one parses the weather in tests.
     testImplementation("org.json:json:20240303")
