@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    val bom = platform("androidx.compose:compose-bom:2026.09.00")
+    val bom = platform("androidx.compose:compose-bom:2026.11.01")
     implementation(bom)
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.foundation:foundation")
